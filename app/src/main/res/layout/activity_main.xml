@@ -10,10 +10,11 @@
         android:id="@+id/btn_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="200dp"
         android:text="Приветствие"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -24,6 +25,7 @@
         android:text="data class"
         app:layout_constraintBottom_toTopOf="@+id/btn_hello"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -34,17 +36,20 @@
         android:text="Циклы"
         app:layout_constraintBottom_toTopOf="@+id/btn_data_class"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:isScrollContainer="true"
+        android:overScrollMode="always"
         android:text="TextView"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="20sp"
+        android:verticalScrollbarPosition="defaultPosition"
         app:layout_constraintBottom_toTopOf="@+id/btn_console"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
